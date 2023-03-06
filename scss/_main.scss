@@ -1,0 +1,331 @@
+/* ACA VAN LOS ESTILOS DE LAS CARD DE SERVICIOS
+DISPONIBILIDAD - RESPALDO - ASISTENCIA - GARANTIA */
+
+/* TAMBIEN SE UTILIZAN PARA DAR ESTILO A LAS CARD DE LA PAGINA HIPOTECA 
+( ADQUISICION - REFINANCIAMIENTO - CONSTRUCCION - LIQUIDEZ ) */
+
+/* TAMBIEN PARA PUBLICAGRATIS= ( 2.9 MILLONES - 542MIL - + 5MIL )*/
+
+/* INDEX MOTIVOS PARA ELEGIR TU VIVIENDA */
+.cardmotivosTuvivienda {
+    text-align: justify;
+    margin-top: 7rem;
+    margin-bottom: 8rem;
+    margin-left: 13rem;
+    margin-right: 13rem;
+    border: rgb(233, 91, 15) solid 2px;
+    border-radius: 5px;
+}
+
+@media (max-width: 700px) {
+    .cardmotivosTuvivienda {
+        margin: 2rem 2rem 2rem 2rem;
+        border: none;
+        
+    }
+}
+
+
+@media (max-width: 600px) {
+    .unIdad {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        margin-top: 1.5rem;
+    }
+}
+
+.parrafomotivosTuvivienda {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: 0.8rem;
+}
+
+i {
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.hdosServ {
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* HASTA ACA Va*/
+
+/* ESTILOS CARDS LINEA DE 4 Y LINEA DE 2 */
+
+.card-title {
+    text-align: center;
+    margin-top: 2.3rem;
+
+}
+
+.card-title h2 {
+    font-weight: bold;
+
+
+}
+
+.cardPromo {
+
+    text-align: center;
+    padding: 0rem;
+    margin: 3.7rem 1rem 3rem 1rem;
+    background-color: rgb(244, 244, 246);
+    border-radius: 5px;
+    box-shadow: 3px 5px 5px rgb(211, 211, 213);
+    opacity: 87%;
+}
+
+.cardPromo:hover {
+    opacity: 100%;
+    border: rgb(233, 91, 15) solid 0.1rem;
+}
+
+@media (max-width: 700px) {
+    .cardPromo {
+        margin: 2rem;
+    }
+}
+
+/* ACA ESTA EL ALTO DEL CARROUZEL */
+div {
+    div {
+        img {
+            height: 50rem;
+
+        }
+    }
+}
+
+/*ESTILOS CARD LINEA DE 4*/
+
+section {
+    div {
+        img {
+            width: 16rem;
+            height: 25rem;
+
+        }
+    }
+}
+
+
+/* ESTILOS CARD DESARROLLOS */
+
+.preCio {
+    /* checado si funciona esta en la CARDPROMO */
+    font-weight: bold;
+    font-size: 2.2rem;
+    margin: 0.5rem;
+    color: rgb(90, 137, 232);
+    ;
+    ;
+}
+
+.tipsCompradesa {
+    /* checado si funciona */
+    margin-left: 13rem;
+
+    margin-right: 13rem;
+}
+
+@media (max-width: 700px) {
+    .tipsCompradesa {
+        margin: 1rem 3rem 1rem 3rem;
+    }
+}
+
+.titTips {
+    /* checado si funciona */
+    margin-bottom: 2.5rem;
+    margin-top: 6rem;
+}
+
+
+.cardTips {
+    /* checado si funciona*/
+    padding: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+
+
+/* ACA VAN LOS ESTILOS DE LAS CARD ESTAS LISTO?*/
+
+.cardEstaslisto {
+    display: inline-flex;
+    margin-top: 7rem;
+}
+
+.cardEstaslistotexto {
+    width: 40%;
+    height: 35rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(70, 137, 232);
+    margin-left: 14rem;
+    border: 1px rgb(70, 137, 232) solid;
+
+}
+
+@media (max-width: 699px) {
+    .cardEstaslistotexto {
+        margin-left: 5rem;
+        margin-right: 5rem;
+        margin-top: 3.5rem;
+        height: 35rem;
+        font-size: 3.5rem;
+    }
+}
+
+@media (min-width: 700px) and (max-width:1180px) {
+    .cardEstaslistotexto {
+        margin-left: 7rem;
+        margin-right: 7rem;
+        margin-top: 3.5rem;
+        height: 35rem;
+    }
+}
+
+.cardEstaslistotexto div p {
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+    font-weight: bold;
+}
+
+.cardEstaslistoimagen {
+    width: 40%;
+    height: 35rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-right: 14rem;
+    border: 1px rgb(70, 137, 232) solid;
+}
+
+@media (max-width: 699px) {
+    .cardEstaslistoimagen {
+        margin-left: 5rem;
+        margin-right: 5rem;
+        height: 35rem;
+    }
+}
+
+@media (min-width: 700px) and (max-width:1180px) {
+    .cardEstaslistoimagen {
+        margin-left: 7rem;
+        margin-right: 7rem;
+        height: 35rem;
+    }
+}
+
+@media (max-width: 750px) {
+    .cardEstaslistoimagen div p {
+        text-align: center;
+        font-size: 3rem;
+        color: rgb(70, 137, 232);
+        font-weight: bold;
+
+    }
+}
+
+.cardEstaslistoimagen p {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    color: rgb(70, 137, 232);
+    padding: 2rem;
+}
+
+/* ESTILOS DE HIPOTECA HTML */
+
+.titNuepro {
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+}
+
+.nueprocHipoade {
+    margin-left: 13rem;
+
+}
+
+@media (max-width:700px) {
+    .nueprocHipoade {
+        margin: 3rem;
+    }
+}
+
+/* ACA VAN LOS ESTILOS PARA BLOG.HTML */
+
+/* ESTILOS DE LOS COMPONENTES DE LAS NOTICIAS*/
+
+.imagenesnoticiasBlog {
+    width: 80%;
+    height: 80%;
+    display: block;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.titulonoticiasBlog {
+    text-align: left;
+    margin: 3rem 13rem 2rem 13rem;
+    font-weight: bolder;
+    font-size: 3.5rem;
+}
+
+@media (max-width:700px) {
+    .titulonoticiasBlog {
+        font-size: 2.5rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+}
+
+.subtitulonoticiasBlog {
+    text-align: justify;
+    font-weight: bold;
+    font-size: 2.1rem;
+    margin: 3rem 13rem 2rem 13rem;
+}
+
+@media (max-width:700px) {
+    .subtitulonoticiasBlog {
+        font-size: 2rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+}
+
+.parrafonoticiasBlog {
+    text-align: justify;
+    font-size: 1.9rem;
+    margin: 2rem 13rem 2rem 13rem;
+}
+
+@media (max-width:700px) {
+    .parrafonoticiasBlog {
+        font-size: 2rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+}
+
+/* ACA VAN LOS ESTILOS PARA PUBLICAGRATIS.HTML */
+
+/* IMAGEN DE PORTADA DE PAGINA*/
+.imagenportadaPublicagratis {
+    width: 70%;
+    height: 40%;
+    display: block;
+    margin: auto;
+}
+
+/* ACA VAN LOS ESTILOS DEL DIV CON H2 DEL INDEX*/
